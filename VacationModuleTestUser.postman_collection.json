@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "a11c41e7-6bf8-43a6-846a-09fee259e475",
+		"name": "VacationModuleTestUser",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14134797"
+	},
+	"item": [
+		{
+			"name": "Create Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Modify Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1.0/vacationRequests/modifyVacationRequest",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1.0",
+						"vacationRequests",
+						"modifyVacationRequest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Requests",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1.0/vacationRequests/getRequests",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1.0",
+						"vacationRequests",
+						"getRequests"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get National Holidays",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Vacation Days",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
