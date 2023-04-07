@@ -1,5 +1,4 @@
 # Vacation-Module
-Take-Home Assessment Tremend
 
 Spring Boot version: v2.4.5
 Dependencies: spring-boot-starter-data-jpa
